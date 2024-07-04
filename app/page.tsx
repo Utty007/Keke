@@ -59,7 +59,7 @@ export default function Home() {
           </p>
           <a href="#app" className='bg-[#f4c716] text-black rounded-full px-4 py-2 inline-block text-lg mt-2'>Get The App</a>
         </div>
-        <div className="flex flex-row flex-wrap gap-8 text-center lg:text-left justify-center lg:justify-normal">
+        <div className="flex flex-row flex-wrap gap-8 text-center lg:text-left justify-center lg:justify-end">
         {
           reasons.map((reason: reason, index: number) => {
             return (
