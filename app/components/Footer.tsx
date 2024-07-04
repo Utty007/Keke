@@ -18,7 +18,7 @@ function Footer() {
             <button className='px-5 py-2 bg-[#f4c617] text-black rounded-full'>Subscribe</button>
           </div>
         </div>
-        <div className='bg-white px-10 py-16 flex flex-col md:flex-row lgap-8 justify-between'>
+        <div className='bg-white px-10 py-16 flex flex-col md:flex-row gap-8 justify-between'>
           <Image src={Logo} alt='Keke Company Logo' />
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-[#f4c617] text-3xl'>Contact Us</h2>
