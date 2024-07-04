@@ -6,7 +6,7 @@ function Welcome() {
   return (
     <div className="lg:h-[600px] flex flex-col-reverse md:flex-row gap-8 justify-between items-center p-6 md:p-16">
         <div className='my-5 md:my-0'>
-          <h2 className="text-4xl md:text-5xl font-bold text-black uppercase">Welcome to Keke<span className="text-white">.com</span></h2>
+          <h1 className="text-4xl md:text-5xl font-bold text-black uppercase">Welcome to Keke<span className="text-white">.com</span></h1>
           <p className="py-2">Your Eco-Friendly Camp Travel Solution.</p>
           <a href="#about"className="bg-black block text-white px-4 inline-block py-2 rounded-full">Learn More</a>
         </div>
@@ -18,3 +18,7 @@ function Welcome() {
 }
 
 export default Welcome;
+
+<form>
+
+</form>

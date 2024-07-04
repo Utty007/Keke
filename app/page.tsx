@@ -53,7 +53,7 @@ export default function Home() {
       <Welcome />
       <div id="about" className="w-full bg-white md:px-16 px-8 flex flex-col lg:flex-row gap-8 justify-center lg:justify-between items-center p-6">
         <div className="max-w-[700px] lg:max-w-[500px]">
-          <h1 className="text-[#f4c617] text-4xl md:text-5xl leading-normal">WHY CHOOSE KEKE?</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#f4c617] leading-loose md:leading-normal">Why Choose Keke?</h1>
           <p className="text-black text-lg md:text-xl">
             Our mission at Keke is to revolutionize campus transportation by offering a green alternative that not only eases commuting but also fosters a healthier and more connected university community. We aim to reduce congestion, minimize our carbon footprint, and provide a reliable service that complements the university's existing transportation options.
           </p>

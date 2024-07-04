@@ -9,7 +9,7 @@ function Footer() {
     <footer>
         <div className='bg-black text-center p-8'>
           <h3 className='text-5xl font-bold text-[#f4c617] leading-normal'>Get Involved</h3>
-          <p className='text-white'>Interested in joining the Keke community? Whether you're looking to volunteer, partner with us, or simply stay updated, we're excited to hear from you. Together, let's pedal towards a greener future!</p>
+          <p className='text-white m-auto max-w-[700px]'>Interested in joining the Keke community? Whether you're looking to volunteer, partner with us, or simply stay updated, we're excited to hear from you. Together, let's pedal towards a greener future!</p>
           <div className='mt-8 flex flex-col gap-5 justify-center items-center'>
             <div className='flex flex-col md:flex-row gap-8'>
               <input type="text" name="name" placeholder='Name' className='p-3 text-xl outline-[#f4c617] w-[300px]' />
@@ -18,7 +18,7 @@ function Footer() {
             <button className='px-5 py-2 bg-[#f4c617] text-black rounded-full'>Subscribe</button>
           </div>
         </div>
-        <div className='bg-white px-10 py-16 flex flex-col md:flex-row gap-8 justify-between'>
+        <div className='bg-white px-10 py-16 flex flex-col md:flex-row lgap-8 justify-between'>
           <Image src={Logo} alt='Keke Company Logo' />
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-[#f4c617] text-3xl'>Contact Us</h2>
@@ -28,14 +28,14 @@ function Footer() {
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-[#f4c617] text-3xl'>Stay Connected</h2>
             <div className='flex gap-2'>
-              <FaInstagramSquare width="40" height="40px" />
-              <FaTwitter width="40px" height="40px"/>
+              <FaInstagramSquare width={40} height={40} />
+              <FaTwitter width={40} height={40}/>
               <FaLinkedin width={40} height={40}/>
             </div>
           </div>
         </div>
         <div className='bg-[#f4c617] text-black font-bold text-xl text-center p-4'>
-          <h3>2024 &copy; All Rights Reserved. Keke<span className='text-white'>.com</span></h3>
+          <h3>2024 &copy; All Rights Reserved. Kekecruise<span className='text-white'>.com</span></h3>
         </div>
     </footer>
   )
