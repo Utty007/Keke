@@ -12,7 +12,7 @@ const gupter = Gupter({
 
 export const metadata: Metadata = {
   title: "Keke",
-  description: "The Official Website Of Keke. Our mission at Keke is to revolutionize campus transportation by offering a green alternative that not only eases commuting but also fosters a healthier and more connected university community. Hosted at Kekecruise. Kekecruise.com",
+  description: "The Official Website Of Keke. Our mission at Keke is to revolutionize campus transportation by offering a green alternative that not only eases commuting but also fosters a healthier and more connected university community.",
 };
 
 interface RootLayoutProps {
