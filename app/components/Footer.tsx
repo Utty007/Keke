@@ -21,7 +21,7 @@ function Footer() {
   return (
     <footer>
         <div className="klaviyo-form-TtUdqv"></div>
-        <div className='bg-black px-10 py-16 flex flex-col md:flex-row gap-8 justify-between'>
+        <div className='bg-black text-white px-10 py-16 flex flex-col md:flex-row gap-8 justify-between'>
           <Image src={Logo} alt='Keke Company Logo' />
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-[#f4c617] text-3xl'>Contact Us</h2>
