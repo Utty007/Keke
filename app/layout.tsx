@@ -24,7 +24,6 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     <html lang="en">
       <Head>
         <link rel="icon" href="../public/favicon.ico" />
-        <meta name="google-site-verification" content="gNfxWqGyT_jkS4mIxY1SOau1vAtb2foYUJa-vzY9sxU" />
       </Head>
       <body className={`bg ${gupter.className}`}>
         <Header />
