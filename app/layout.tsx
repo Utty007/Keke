@@ -24,6 +24,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     <html lang="en">
       <Head>
         <link rel="icon" href="../public/favicon.ico" />
+        <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=XaduTb"></script>
       </Head>
       <body className={`bg ${gupter.className}`}>
         <Header />
