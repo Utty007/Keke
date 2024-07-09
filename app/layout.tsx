@@ -29,6 +29,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       <body className={`bg ${gupter.className}`}>
         <Header />
         {children}
+        <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=XaduTb"></script>
       </body>
     </html>
   );
