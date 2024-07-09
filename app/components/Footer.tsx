@@ -21,19 +21,19 @@ function Footer() {
   return (
     <footer>
         <div className="klaviyo-form-TtUdqv"></div>
-        <div className='bg-white px-10 py-16 flex flex-col md:flex-row gap-8 justify-between'>
+        <div className='bg-black px-10 py-16 flex flex-col md:flex-row gap-8 justify-between'>
           <Image src={Logo} alt='Keke Company Logo' />
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-[#f4c617] text-3xl'>Contact Us</h2>
-            <p><span className='font-bold'>Phone Number:</span> 081293028491</p>
-            <p><span className='font-bold'>Email:</span> Contact@keke.gmail.com</p>
+            <p><span className='font-bold text-white'>Phone Number:</span> 081293028491</p>
+            <p><span className='font-bold text-white'>Email:</span> Contact@keke.gmail.com</p>
           </div>
           <div className='flex flex-col gap-3'>
             <h2 className='font-bold text-[#f4c617] text-3xl'>Stay Connected</h2>
             <div className='flex gap-2'>
-              <FaInstagramSquare width={40} height={40} />
-              <FaTwitter width={40} height={40}/>
-              <FaLinkedin width={40} height={40}/>
+              <FaInstagramSquare width={40} height={40} className='text-white' />
+              <FaTwitter width={40} height={40} className='text-white'/>
+              <FaLinkedin width={40} height={40}  className='text-white'/>
             </div>
           </div>
         </div>
